@@ -6,7 +6,7 @@ spring:
     password: '{cipher}AYCesAZGxTIVfFelyLtaCzcNE0Jo6gytHujUtNWBGGWCaMMr68BFgjUqlmWuW4Jqhh5b3LFDdQRNrlOIphvHb9VNtA+FsnK7AxkwiDnPqn2k/NUUC0YfWjKLf8xrpYF53GFhV4L56QjwCDc6/aPKWVIj2VhGzmkivckNVzVRykwkf9zsnYw3Us4X//5U0v+GcqPnTbb/M0TeCagKHpHEnBp4XZ0n14gFNLbuqQSiuAFjd4eAaMH4GbHFDeE2N1oGvqttrdgpcDY2I6UVL+mICZwtyQd7DjB5nVk0H7EaF36UTjdDUNp7Q9DPOs+BAMyTbByoe0xUMnr//guPYTwQb5weB55p2HaG8cliT4/GMDe1VTZBnbuJ38+MddwctaHp21dOaBR72fCLCPmQcKVGwiAemzmXPxvvzRsxzpAcJ/v8Ti6Ws0UXbKZ5s+4fOQB14voW43jRQdWjFtSRi+Bb+tAxAT567UVKyuEGbPwhgy0vCYc17efi5yb7cQ9MkJCvtUp/YgMrH59Q7FYjQeptn2t7GrRJGNNFXiKWCRGhngWftA=='
 
 order-service:
-  url: http://127.0.0.1:8000/order-service/%s/orders
-  # url: http://order-service/order-service/%s/orders
+  #url: http://127.0.0.1:8000/order-service/%s/orders
+  url: http://order-service/order-service/%s/orders
   exception:
     order-is-empty: User's orders is empty.
